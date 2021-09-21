@@ -2,6 +2,7 @@ from scipy.io import wavfile
 import scipy.io
 import matplotlib.pyplot as plt
 import numpy as np
+##end of import 
 
 sampleRate, data = wavfile.read("165150__rhythmpeople__rpeople-percussion4.wav")
 print("Sound sample rate: ", sampleRate, "Hz")
